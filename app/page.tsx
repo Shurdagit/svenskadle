@@ -24,6 +24,17 @@ const games = [
       "Gissa dagens svenska ord på sex försök. Varje gissning avslöjar om bokstäverna är rätt placerade – ett knepigt ordspel som utmanar ditt ordförråd.",
     cta: "Gissa ordet",
   },
+  {
+    id: "taldle",
+    className: "card--taldle",
+    href: "https://taldle.svenskadle.se",
+    icon: "🎯",
+    label: "Dagligt talspel",
+    title: "Taldle",
+    description:
+      "Gissa ett hemligt tal mellan 1 och 1000 på max 20 försök. Efter varje gissning får du veta om svaret är högre eller lägre – sikta på platina medalj 💎 med så få gissningar som möjligt!",
+    cta: "Testa din lycka",
+  },
 ];
 
 export default function Home() {
